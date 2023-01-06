@@ -108,12 +108,15 @@ padding-left: 206px;
     width: 416px;
     height: 400px;
     left: 862px;
-    top: 1178px;
+    top: 1000px;
     color: #444343;
 }
-/* .profile-pic{
-    display: flex;
-} */
+.profile-pic{
+    width: 400px;
+    height: 400px;
+    /* background-color: rgb(215, 176, 148); */
+    
+}
 .profile-section h2{
     font-weight: 700;
 font-size: 40px;
@@ -134,3 +137,37 @@ color: #444343;
   .profile-section ul li:before {
     content: '✓';
   }
+
+  .skills-container {
+    display: flex;
+    gap: 86px;
+    margin-left: 230px;
+}
+.My-plans{
+    position: absolute;
+    width: 1141px;
+    height: 299.96px;
+    left: 230px;
+    top: 1400px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+    text-align: center;
+    margin-bottom: 58px;
+}
+.skill-title {
+    line-height: 27px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+
+line-height: 16px;
+text-align: center;
+}
+
+
+
