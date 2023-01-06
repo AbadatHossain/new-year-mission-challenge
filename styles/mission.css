@@ -88,3 +88,49 @@ banner style .banner {
     top: 468px;
     text-align: right;
 }
+.profile-pic{
+    position: absolute;
+width: 569px;
+height: 723.3px;
+left: 50px;
+top: 939px;
+padding-left: 206px;
+}
+.profile-section{
+    display: flex;
+    width: 416px;
+    height: 400px;
+    left: 862px;
+    top: 1178px;
+}
+.profile-discription{
+    position: absolute;
+    width: 416px;
+    height: 400px;
+    left: 862px;
+    top: 1178px;
+    color: #444343;
+}
+/* .profile-pic{
+    display: flex;
+} */
+.profile-section h2{
+    font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+
+}
+.profile-section p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+}
+.profile-section ul {
+    list-style: none;
+  }
+  
+  .profile-section ul li:before {
+    content: '✓';
+  }
