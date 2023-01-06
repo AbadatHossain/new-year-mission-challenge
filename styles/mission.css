@@ -1,3 +1,7 @@
+html, body {
+    max-height: 100%;
+    max-width: 100%;
+}
 * {
     margin: 0;
     font-family: 'Work Sans';
@@ -7,7 +11,7 @@
     color: #FD6E0A;
 }
 
-header {}
+
 
 .btn-primary {
     color: #FFFFFF;
@@ -35,6 +39,8 @@ nav {
     justify-content: space-between;
     padding: 20px 200px;
     font-weight: 700;
+    width: fit-content;
+    
 }
 
 .nav-title {
@@ -167,6 +173,69 @@ color: #444343;
 
 line-height: 16px;
 text-align: center;
+}
+.banner-gradiant{
+    /* position: absolute;
+    width: 1140px;
+    height: 250px;
+    left: 230px;
+    right:230px;
+    top: 1800px; */
+    position: absolute;
+width: 459px;
+height: 182px;
+left: 294px;
+top: 1800px;
+
+}
+.banner-gradiant-discription{
+    
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+color: #171313;
+position: absolute;
+width: 459px;
+height: 94px;
+left: 60px;
+top: -100px;
+}
+.banner-gradiant.gradiant-image{
+    background-image: linear-gradient(orange, white);
+}
+.footer-section{
+    display: flex;
+    position: absolute;
+width: 1600px;
+height: 300px;
+left: 0px;
+top: 2200px;
+
+background: #151414;
+
+
+padding: 230px;
+color: #FFFFFF;
+}
+.footer.section-title-1{
+    font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+}
+.footer.section-title-2{
+    position: absolute;
+width: 325px;
+height: 204px;
+left: 1046px;
+top: 2782.26px;
+
+}
+.footer.footer-description{
+    padding: 230px;
 }
 
 
