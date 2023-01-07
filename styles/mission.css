@@ -1,68 +1,33 @@
-html, body {
-    max-height: 100%;
-    max-width: 100%;
-}
 * {
     margin: 0;
     font-family: 'Work Sans';
+    padding: 0;
 }
 
-.text-primary {
-    color: #FD6E0A;
-}
-
-
-
-.btn-primary {
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 15px;
-
-    background: #FD6E0A;
-    border-radius: 5px;
-    border: 0;
-    padding: 18px 35px;
-    position: absolute;
-    width: 160px;
-    height: 64px;
-    left: 1210px;
-    top: 578px;
-
-}
-
-/* headeer and navijgatijon styles */
-
-nav {
-    background: #0ae1fd;
-    color: #000;
+.nav-container {
     display: flex;
     justify-content: space-between;
-    padding: 20px 200px;
-    font-weight: 700;
-    width: fit-content;
-    
+    background-color: aquamarine;
+    padding: 10px;
 }
 
-.nav-title {
-    font-weight: 800;
-    font-size: 45px;
-    line-height: 61px;
-}
-
-nav ul {
+.items {
     display: flex;
-    align-items: center;
 }
 
-nav li {
-    list-style: none;
-    margin-left: 50px;
+.item {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    list-style-type: none;
+    margin-right: 20px;
 }
 
-banner style .banner {
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/banner/banner1.png');
     display: flex;
-    align-items: center;
-    margin: 0 200px;
 }
 
 .banner-title {
@@ -76,17 +41,13 @@ banner style .banner {
     top: 216px;
     color: #151414;
     text-align: right;
-
 }
-
-
 
 .banner-discription {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-
     position: absolute;
     width: 494px;
     height: 78px;
@@ -94,22 +55,46 @@ banner style .banner {
     top: 468px;
     text-align: right;
 }
-.profile-pic{
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
     position: absolute;
-width: 569px;
-height: 723.3px;
-left: 50px;
-top: 939px;
-padding-left: 206px;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
 }
-.profile-section{
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.profile-pic {
+    position: absolute;
+    width: 569px;
+    height: 100vh;
+    left: 50px;
+    top: 939px;
+    padding-left: 206px;
+}
+
+.profile-section {
     display: flex;
-    width: 416px;
+    width: 100%;
     height: 400px;
     left: 862px;
-    top: 1178px;
+    top: 1000px;
+    height: 100vh;
+    background-color: #d5cdc7;
 }
-.profile-discription{
+
+.profile-discription {
     position: absolute;
     width: 416px;
     height: 400px;
@@ -117,126 +102,167 @@ padding-left: 206px;
     top: 1000px;
     color: #444343;
 }
-.profile-pic{
+
+.profile-pic {
     width: 400px;
     height: 400px;
-    /* background-color: rgb(215, 176, 148); */
-    
 }
-.profile-section h2{
+
+.profile-section h2 {
     font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-color: #151414;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
 
 }
-.profile-section p{
+
+.profile-section p {
     font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
 }
+
 .profile-section ul {
     list-style: none;
-  }
-  
-  .profile-section ul li:before {
-    content: '✓';
-  }
+}
 
-  .skills-container {
+.profile-section ul li:before {
+    content: '✓';
+}
+
+.My-plans {
+    width: 100%;
+    height: 100vh;
+    left: 230px;
+
+}
+
+.skills-container {
     display: flex;
     gap: 86px;
     margin-left: 230px;
+    margin-right: 230px;
+    justify-content: space-between;
+
 }
-.My-plans{
-    position: absolute;
-    width: 1141px;
-    height: 299.96px;
-    left: 230px;
-    top: 1400px;
-}
-.section-title{
+
+.section-title {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 47px;
     text-align: center;
     margin-bottom: 58px;
 }
+
 .skill-title {
     line-height: 27px;
     font-weight: 700;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
-    
+    line-height: 16px;
+    text-align: center;
+}
 
-line-height: 16px;
-text-align: center;
+.skill-description {
+    text-align: center;
 }
-.banner-gradiant{
-    /* position: absolute;
-    width: 1140px;
-    height: 250px;
-    left: 230px;
-    right:230px;
-    top: 1800px; */
-    position: absolute;
-width: 459px;
-height: 182px;
-left: 294px;
-top: 1800px;
 
-}
-.banner-gradiant-discription{
-    
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
+.gradiant-banner {
+    width: 80%;
+    height: 50vh;
 
-color: #171313;
-position: absolute;
-width: 459px;
-height: 94px;
-left: 60px;
-top: -100px;
+
+    text-align: left;
+    margin: 20px;
+    background-color: red;
+    background-image: url('./images/watch.png'), linear-gradient(to right, red, yellow);
 }
-.banner-gradiant.gradiant-image{
-    background-image: linear-gradient(orange, white);
+
+.gradiant-banner-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-top: 50px;
+
+    color: #FFFFFF;
 }
-.footer-section{
+
+.btn-primary-grad {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    background: #c6bdb7;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
+    width: 160px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+/* .contact styles */
+.contact {
     display: flex;
-    position: absolute;
-width: 1600px;
-height: 300px;
-left: 0px;
-top: 2200px;
-
-background: #151414;
-
-
-padding: 230px;
-color: #FFFFFF;
-}
-.footer.section-title-1{
-    font-weight: 600;
-font-size: 25px;
-line-height: 29px;
-
-color: #FFFFFF;
-
-}
-.footer.section-title-2{
-    position: absolute;
-width: 325px;
-height: 204px;
-left: 1046px;
-top: 2782.26px;
-
-}
-.footer.footer-description{
-    padding: 230px;
+    gap: 100px;
+    background: #13100e;
+    padding: 130px 200px;
 }
 
+.contact.section-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.contact.section-discription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.contact input {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact-item {
+    color: #d5cdc7;
 
 
+}
+
+.subscrirbe {
+    color: #d5cdc7;
+}
+
+.contact-email {
+    padding-top: 20px;
+}
+
+.contact-ph {
+    padding-top: 20px;
+}
+
+.media {
+    padding-top: 20px;
+}
+
+.btn-primary-footer {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    background: #e9650d;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
+    width: 160px;
+    height: 50px;
+    margin-left: 50px;
+
+}
